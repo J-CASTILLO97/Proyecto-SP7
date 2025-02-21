@@ -20,3 +20,4 @@ Este proyecto es una aplicación web desarrollada con **Streamlit**, que permite
 2. Instalar las dependencias necesarias:  
    ```bash
    pip install -r requirements.txt
+3. Ejecutas la aplicacion con: python -m streamlit run app.py
