@@ -3,8 +3,10 @@ import pandas as pd
 import plotly.express as px
 
 # Leer los datos limpios
-# Recuerda cambiar la ruta del archivo
-vehicles = pd.read_csv(r"C:\Users\Usuario\Desktop\DATA SCIENTIST\DATA_SCIENTIS_TRIPLETEN\Sprint 7\Proyecto-SP7\vehicles_cleaned.csv")
+import os  
+vehicles = pd.read_csv(os.path.join(os.getcwd(), "vehicles_cleaned.csv"))
+
+
 
 # Crear un encabezado
 st.header("Dashboard de Vehículos en Venta")
