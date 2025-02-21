@@ -9,15 +9,18 @@ Este proyecto es una aplicación web desarrollada con **Streamlit**, que permite
    - **Histograma de kilometraje**: Muestra la distribución del odómetro en los vehículos anunciados.  
    - **Gráfico de dispersión (Precio vs Kilometraje)**: Permite visualizar la relación entre el precio y el kilometraje según el tipo de combustible.  
 
-## 🛠 Tecnologías Utilizadas  
+## Tecnologías Utilizadas  
 - **Python**  
 - **Pandas** (para manipulación de datos)  
 - **Plotly Express** (para gráficos interactivos)  
 - **Streamlit** (para crear la interfaz web)  
 
-## 🚀 Cómo Ejecutar la Aplicación  
+## Cómo Ejecutar la Aplicación  
 1. Clonar este repositorio o descargar los archivos.  
 2. Instalar las dependencias necesarias:  
    ```bash
    pip install -r requirements.txt
 3. Ejecutas la aplicacion con: python -m streamlit run app.py
+
+## URL de acceso a la app
+https://proyecto-sp7-10jp.onrender.com
